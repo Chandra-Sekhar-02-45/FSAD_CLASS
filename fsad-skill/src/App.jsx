@@ -28,6 +28,9 @@ function App() {
                   <img className="social" src="ICONS/facebook.png" alt="" />
                   <img className="social" src="ICONS/twitter.png" alt="" />
             </div>
+            <div className='placeholder'>
+              <input type="text" className='searchText' placeholder='Search by skill' />
+            </div>
       
         </div>
       </div>
