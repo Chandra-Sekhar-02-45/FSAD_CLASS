@@ -16,10 +16,11 @@
 .icon{
   font-size: 20px;
 }
-.locatoion_icon{
-  height: 25px;
+.searchbar_icon{
+  height: 33px;
   width: auto;
-  margin-right: 5px;
+  margin: 7px;
+  padding: 3px;
 }
 .button_prof{
  border-radius: 50%;
@@ -55,26 +56,26 @@
   }
 }
 .search_bar{
-  width: 150px;
-  height: 50px;
-  border-radius: 10px;
+  width:175px;
+  height: 39px;
   border-color: transparent;
-  font-size: 15px;
-  background-color:white;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  outline: none;
 }
-#btn_adj{
-  height: 50px;
-  width: 50%;
+.search_bar_left{
+   border-right-color: black;
+  border-radius: 10px;
+  border-top-right-radius:0px ;
+  border-bottom-right-radius: 0px;
 }
 .search_container{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   align-items: center;
-  height: 20px;
+  height: 40px;
+  border-radius: 10px;
+  border-color: black  !important;
 }
 .login_popup_bar{
   font-size:25px;

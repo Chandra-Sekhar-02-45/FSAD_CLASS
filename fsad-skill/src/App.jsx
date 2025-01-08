@@ -44,13 +44,11 @@ function App() {
         </div>
         <div className="d-flex flex-row justify-content-center align-items-center">
           <div className='d-flex flex-row justify-content-center search_container'>
-                <img src="ICONS/searchicon.png" alt="search" className="locatoion_icon" />
-                      <input type="text" className="search_bar" placeholder="Search By Skill" />
-                <img src='ICONS/location.png' alt='location' className='locatoion_icon' />
-                      <input type="text" className="search_bar" placeholder="Search By Location" />
-                <button className='btn btn-primary' id="btn_adj">
-                    Search
-                </button>
+              <img src="ICONS/searchicon.png" alt="search" className="searchbar_icon" />
+               <input type="text" className='search_bar search_bar_left' placeholder="Search By Skill" />
+              <img src='ICONS/location.png' alt='location' className='searchbar_icon' />
+               <input type="text" className="search_bar" placeholder="Search By Location" />
+              <button className='btn btn-primary' >Search</button>
           </div>
           <div>
             <button className="button_prof m-auto">
