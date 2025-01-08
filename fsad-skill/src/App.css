@@ -16,6 +16,11 @@
 .icon{
   font-size: 20px;
 }
+.locatoion_icon{
+  height: 25px;
+  width: auto;
+  margin-right: 5px;
+}
 .button_prof{
  border-radius: 50%;
  border-color: transparent;
@@ -49,3 +54,35 @@
       transform: translateX(-100%);
   }
 }
+.search_bar{
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border-color: transparent;
+  font-size: 15px;
+  background-color:white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#btn_adj{
+  height: 50px;
+  width: 50%;
+}
+.search_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  align-items: center;
+  height: 20px;
+}
+.login_popup_bar{
+  font-size:25px;
+  font-weight: bold;
+  text-align: center !important; 
+}
+
+.login_popup_bar_loginbtn{
+  width: 100%;
+}
+
