@@ -1,0 +1,57 @@
+/* General styles */
+.container {
+    margin-top: 20px;
+}
+
+.head_container {
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+.plogo {
+    width: 80px;
+    height: auto;
+}
+
+.menu h2 {
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+
+.menu h2:hover {
+    color: #007bff;
+}
+
+.content img {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.pname h3 {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.pother p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f8f9fa;
+}
+
+.slogo i {
+    font-size: 24px;
+    color: #555;
+    cursor: pointer;
+}
+
+.slogo i:hover {
+    color: #007bff;
+}
