@@ -4,7 +4,7 @@ import './App.css'
 function App() {
 
   return (
-    <>  <div className='container-fluid'>
+    <>  <div className='container-fluid d-flex flex-column justify-content-start'>
           <div className='row'>
       <nav className="navbar navbar-expand-lg bg-body-tertiary col-12">
           <div className="container-fluid">
@@ -85,16 +85,16 @@ function App() {
           </div>
         </div>
       </nav>  
-      <div  style={{height: '750px'}}></div>
-        <div className='d-flex flex-column justify-content-start bg-secondary text-centre'>
+     
+        <div className='d-flex flex-column justify-content-end bg-secondary text-center'>
             <div className='d-flex flex-row justify-content-start'>
               <i className="fa-regular fa-copyright icon"  style={{marginRight: '8px'}}></i>
               <p>Copyright (2300031237)</p>
             </div>
             <div className='d-flex flex-row justify-content-end'>
-              <i className="fa-brands fa-facebook icon_footer" style={{marginRight: '8px'}}></i>
-              <i className="fa-brands fa-twitter icon" style={{marginRight: '8px'}}></i>
-              <i className="fa-brands fa-linkedin icon" style={{marginRight: '8px'}}></i>
+              <i className="fa-brands fa-facebook icon_footer"></i>
+              <i className="fa-brands fa-twitter icon"></i>
+              <i className="fa-brands fa-linkedin icon"></i>
             </div>
         </div>
           </div>
