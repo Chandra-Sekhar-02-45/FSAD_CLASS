@@ -1,5 +1,9 @@
 
-import './App.css'
+import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
+
 
 function App() {
 
@@ -88,11 +92,11 @@ function App() {
      
         <div className='d-flex flex-column justify-content-end bg-secondary text-center'>
             <div className='d-flex flex-row justify-content-start'>
-              <i className="fa-regular fa-copyright icon"  style={{marginRight: '8px'}}></i>
-              <p>Copyright (2300031237)</p>
+              <i className="fa-regular fa-copyright icon_footer"></i>
+              <p className='copy_right'>2025 Rights Reserved , (2300031237)</p>
             </div>
             <div className='d-flex flex-row justify-content-end'>
-              <i className="fa-brands fa-facebook icon_footer"></i>
+              <i className="fa-brands fa-facebook icon"></i>
               <i className="fa-brands fa-twitter icon"></i>
               <i className="fa-brands fa-linkedin icon"></i>
             </div>
