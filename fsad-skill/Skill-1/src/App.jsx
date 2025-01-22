@@ -39,8 +39,6 @@ function App() {
                   </li>  
                 </ul>
               </div>
-              <div>
-             </div>  
         </div>
         <div className="d-flex flex-row justify-content-center align-items-center">
           <div className='d-flex flex-row justify-content-center search_container'>
@@ -86,10 +84,22 @@ function App() {
               </div>
           </div>
         </div>
-      </nav>    
+      </nav>  
+      <div  style={{height: '750px'}}></div>
+        <div className='d-flex flex-column justify-content-start bg-secondary text-centre'>
+            <div className='d-flex flex-row justify-content-start'>
+              <i className="fa-regular fa-copyright icon"  style={{marginRight: '8px'}}></i>
+              <p>Copyright (2300031237)</p>
+            </div>
+            <div className='d-flex flex-row justify-content-end'>
+              <i className="fa-brands fa-facebook icon_footer" style={{marginRight: '8px'}}></i>
+              <i className="fa-brands fa-twitter icon" style={{marginRight: '8px'}}></i>
+              <i className="fa-brands fa-linkedin icon" style={{marginRight: '8px'}}></i>
+            </div>
+        </div>
           </div>
         </div>
-    </>
+    </> 
   )
 }
 
