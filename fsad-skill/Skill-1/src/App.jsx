@@ -89,7 +89,6 @@ function App() {
           </div>
         </div>
       </nav>  
-<<<<<<< HEAD
       <div className='d-flex flex-column justify-content-center text-center' style={{height: '816px'}}>
         <img className='logo_content' src="/ICONS/main.png" alt="" />
         <h3>THERE IS THE ONE STOP DESTINATION FOR YOUR JOB HUNT</h3>
@@ -98,13 +97,6 @@ function App() {
             <div className='d-flex flex-row justify-content-start'>
               <i className="fa-regular fa-copyright icon"  style={{marginRight: '8px'}}></i>
               <p>Copyright (2300030511)</p>
-=======
-     
-        <div className='d-flex flex-column justify-content-end bg-secondary text-center'>
-            <div className='d-flex flex-row justify-content-start'>
-              <i className="fa-regular fa-copyright icon_footer"></i>
-              <p className='copy_right'>2025 Rights Reserved , (2300031237)</p>
->>>>>>> 683e0acc44de8ecd3aab5fc23e47192b6681d875
             </div>
             <div className='d-flex flex-row justify-content-end'>
               <i className="fa-brands fa-facebook icon"></i>
