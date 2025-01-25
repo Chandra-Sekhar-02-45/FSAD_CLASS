@@ -3,6 +3,13 @@
   height: 50px;
   width: 50px;
 }
+.logo_content{
+  height: 700px;
+  width: 1000px;
+  align-items: center;
+  margin-left:450px;
+}
+
 .head1{
   font-size: 25px;
   font-weight: bold;
@@ -90,4 +97,3 @@
 .login_popup_bar_loginbtn{
   width: 100%;
 }
-

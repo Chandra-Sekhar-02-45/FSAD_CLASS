@@ -85,11 +85,14 @@ function App() {
           </div>
         </div>
       </nav>  
-      <div  style={{height: '750px'}}></div>
+      <div className='d-flex flex-column justify-content-center text-center' style={{height: '816px'}}>
+        <img className='logo_content' src="/ICONS/main.png" alt="" />
+        <h3>THERE IS THE ONE STOP DESTINATION FOR YOUR JOB HUNT</h3>
+      </div>
         <div className='d-flex flex-column justify-content-start bg-secondary text-centre'>
             <div className='d-flex flex-row justify-content-start'>
               <i className="fa-regular fa-copyright icon"  style={{marginRight: '8px'}}></i>
-              <p>Copyright (2300031237)</p>
+              <p>Copyright (2300030511)</p>
             </div>
             <div className='d-flex flex-row justify-content-end'>
               <i className="fa-brands fa-facebook icon_footer" style={{marginRight: '8px'}}></i>
