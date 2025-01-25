@@ -20,13 +20,18 @@
   font-weight: semi-bold;
   align-items: center;
 }
-.icon{
+.icon, .icon_footer, .copy_right {
   font-size: 20px;
 }
-.icon_footer{
-  font-size:20px;
-  
+
+.icon_footer {
+  margin-right: 5px;
 }
+
+.copy_right {
+  text-align: center;
+}
+
 .searchbar_icon{
   height: 33px;
   width: auto;
