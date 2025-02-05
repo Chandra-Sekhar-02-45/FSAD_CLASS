@@ -93,16 +93,16 @@ function App() {
         <img className='logo_content' src="/ICONS/main.png" alt="" />
         <h3>THERE IS THE ONE STOP DESTINATION FOR YOUR JOB HUNT</h3>
       </div>
-        <div className='d-flex flex-column justify-content-start bg-secondary text-centre'>
-            <div className='d-flex flex-row justify-content-start'>
-              <i className="fa-regular fa-copyright icon"  style={{marginRight: '8px'}}></i>
-              <p>Copyright (2300030511)</p>
-            </div>
+        <div className='d-flex flex-column justify-content-end bg-secondary'>
+          <div className='d-flex flex-row start footer'>
+          <i className="fa-regular fa-copyright icon"  style={{marginRight: '8px'}}></i>
+          <p className='mt-3'>Copyright (230003237)</p>
             <div className='d-flex flex-row justify-content-end'>
-              <i className="fa-brands fa-facebook icon"></i>
-              <i className="fa-brands fa-twitter icon"></i>
-              <i className="fa-brands fa-linkedin icon"></i>
-            </div>
+                <i className="fa-brands fa-facebook icon m-2"></i>
+                <i className="fa-brands fa-twitter icon m-2"></i>
+                <i className="fa-brands fa-linkedin icon m-2"></i>
+              </div>
+          </div>
         </div>
           </div>
         </div>

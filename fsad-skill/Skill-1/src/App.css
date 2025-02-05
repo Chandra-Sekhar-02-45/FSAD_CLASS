@@ -102,3 +102,7 @@
 .login_popup_bar_loginbtn{
   width: 100%;
 }
+
+.footer{
+  align-items: center;
+}
