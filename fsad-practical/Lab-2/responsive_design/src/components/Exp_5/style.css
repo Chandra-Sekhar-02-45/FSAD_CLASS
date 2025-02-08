@@ -1,0 +1,14 @@
+.login-form {
+    border: 2px solid black;
+    width: 25vw;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+td{
+    padding: 5px;
+}
