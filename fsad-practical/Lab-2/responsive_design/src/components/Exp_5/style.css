@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 .login_form{
     border:2px solid black;
     height: auto;
@@ -7,7 +7,6 @@
     position: absolute;
 }
 
-=======
 .login-form {
     border: 2px solid black;
     width: 25vw;
@@ -22,4 +21,4 @@
 td{
     padding: 5px;
 }
->>>>>>> 87182675b5d6c6b3ec12e380e1b747649f9a82c3
+
